@@ -1,17 +1,37 @@
 header {
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 10vh;
 }
 
 main {
   width: 100%;
+  min-height: 40vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  background-color: azure;
+}
+
+.article-one {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
-article {
+.article-two {
   display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+article > p {
+  width: 50%;
 }
 img {
   width: 200px;
   height: 200px;
+}
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+footer > button {
+  height: 10vh;
+  width: 100px;
 }
