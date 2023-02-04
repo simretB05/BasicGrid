@@ -1,0 +1,17 @@
+header {
+  display: grid;
+}
+
+main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+article {
+  display: grid;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
